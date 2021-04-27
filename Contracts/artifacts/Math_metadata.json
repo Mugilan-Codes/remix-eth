@@ -1,0 +1,159 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint64",
+						"name": "num1",
+						"type": "uint64"
+					},
+					{
+						"internalType": "uint64",
+						"name": "num2",
+						"type": "uint64"
+					}
+				],
+				"name": "addition",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint64",
+						"name": "num1",
+						"type": "uint64"
+					},
+					{
+						"internalType": "uint64",
+						"name": "num2",
+						"type": "uint64"
+					}
+				],
+				"name": "division",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint64",
+						"name": "num1",
+						"type": "uint64"
+					},
+					{
+						"internalType": "uint64",
+						"name": "num2",
+						"type": "uint64"
+					}
+				],
+				"name": "multiplication",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "num",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint64",
+						"name": "num1",
+						"type": "uint64"
+					},
+					{
+						"internalType": "uint64",
+						"name": "num2",
+						"type": "uint64"
+					}
+				],
+				"name": "subtraction",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Store & retrieve value in a variable",
+			"kind": "dev",
+			"methods": {
+				"retrieve()": {
+					"details": "Return value ",
+					"returns": {
+						"_0": "value of 'number'"
+					}
+				},
+				"store(uint256)": {
+					"details": "Store value in variable",
+					"params": {
+						"num": "value to store"
+					}
+				}
+			},
+			"title": "Math",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Contracts/1_Math.sol": "Math"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Contracts/1_Math.sol": {
+			"keccak256": "0x4e3b5d3038030190898bdba38d9e75afb1e0ae901a0b6b0a32034e3e3104daee",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e6c1d59d929a924872cdb8b9a13213bc4e43233f30c2947d203d131a9bebe7a9",
+				"dweb:/ipfs/QmY65LatybuSgrE4crkasYHsfDi4qRePiyBfnvpMd6AGEp"
+			]
+		}
+	},
+	"version": 1
+}
